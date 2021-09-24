@@ -14,7 +14,7 @@ import java.util.List;
 
 
 @Repository
-@Profile("db")
+@Profile("manual")
 
 public class OrganizerDaoImpl implements OrganizerDao {
     @Autowired
